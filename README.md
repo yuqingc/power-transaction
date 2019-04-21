@@ -83,3 +83,7 @@ t.executeAll();
 $ yarn build
 $ yarn test
 ```
+
+## License
+
+Under [MIT license](https://github.com/yuqingc/power-transaction/blob/master/LICENSE.MIT) with [Anti-996 license](https://github.com/yuqingc/power-transaction/blob/master/LICENSE.996ICU).
