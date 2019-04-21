@@ -5,6 +5,7 @@
 [![npm version](https://img.shields.io/npm/v/power-transaction.svg?style=flat)](https://www.npmjs.com/package/power-transaction)
 [![github issues](https://img.shields.io/github/issues/yuqingc/power-transaction.svg?style=flat)](https://github.com/yuqingc/power-transaction/issues)
 
+**DO NOT USE IT AT PRESENT!**
 
 Power Transaction is a tool for handling transactions. Still under development. *NOT* stable.
 
@@ -73,7 +74,7 @@ const config: TransactionConfig = {
 }
 
 const t = createTransaction(config)
-})
+t.executeAll();
 ```
 
 ## Development
