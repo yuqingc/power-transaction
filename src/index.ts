@@ -1,7 +1,5 @@
-import { a } from './a';
+import Transaction from './Transaction';
 
-console.log(a)
-
-export function add(a: number, b: number):number {
-  return a + b;
-}
+export default Transaction;
+export * from './Transaction';
+export { createTransaction } from './createTransaction'
