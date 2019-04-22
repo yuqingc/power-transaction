@@ -88,6 +88,7 @@ export default class Transaction {
     while(currentTaskName) {
       const currentRolledBackTask = this.tasks.get(currentTaskName);
       currentRolledBackTask && currentRolledBackTask.rollback(this.taskData);
+      currentTaskName = this.executedTasks.pop();
     }
   }
 
